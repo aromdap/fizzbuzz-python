@@ -17,7 +17,29 @@ Fizzbuzz is a simple coding challenge, often described as a code kata. The objec
 When complete we should be able to play in the interpreter like so:
 
 ```python
-
-# to be filled in once I've solved kata
-
+$ python
+>>> from app.fizzbuzz import fizzbuzz
+>>> for i in range(1, 21):
+...     print "%r --> %r" % (i, fizzbuzz(i))
+...
+1 --> 1
+2 --> 2
+3 --> 'fizz'
+4 --> 4
+5 --> 'buzz'
+6 --> 'fizz'
+7 --> 7
+8 --> 8
+9 --> 'fizz'
+10 --> 'buzz'
+11 --> 11
+12 --> 'fizz'
+13 --> 13
+14 --> 14
+15 --> 'fizzbuzz'
+16 --> 16
+17 --> 17
+18 --> 'fizz'
+19 --> 19
+20 --> 20
 ```
