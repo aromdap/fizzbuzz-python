@@ -7,3 +7,7 @@ def fizzbuzz(num):
         return 'fizz'
     else:
         return num
+
+if __name__ == "__main__":
+    for i in range(46):
+        print(str(fizzbuzz(i)))
