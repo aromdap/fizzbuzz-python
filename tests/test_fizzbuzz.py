@@ -14,3 +14,9 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_when_given_2_returns_2(self):
         self.assertEqual(2, fizzbuzz(2))
+
+    def test_invalid_input(self):
+        with self.assertRaises(TypeError):
+            fizzbuzz('string_input')
+        with self.assertRaises(TypeError):
+            fizzbuzz(4.2)
